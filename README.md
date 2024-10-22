@@ -13,19 +13,19 @@ Using the package manager of Anaconda; **Conda**, you can run the following comm
 with the configuration specified in the .yml file
 
 ~~~
-conda env create --file *filename.yml*
+conda env create --file filename.yml
 ~~~
 
 ## How to run the code
 After creating the environment from our .yml file, activate the environment
 
 ~~~
-conda activate *environment-name*
+conda activate environment-name
 ~~~
 
 With the environment active, execute the file with the **python** command
 
 ~~~
-python *filename.py*
+python filename.py
 ~~~
 
